@@ -22,11 +22,7 @@ public class AppTest {
     @Test
     public void testApp()
     {
-        assertTrue( true );
+        int result = 2 - 2;	
+	assertTrue( result == 0 );
     }
-
-   
-    @Test
-    public void shouldDoWhateverIWantToDo(){}	
-
 }
