@@ -6,7 +6,13 @@ import junit.framework.Test;
  * Unit test for simple App.
  */
 public class AppTest {
-    /**
+     
+     @Before	
+     public void setUp() {
+     	//set up sth
+     }     
+
+     /**
      * Create the test case
      *
      * @param testName name of the test case
