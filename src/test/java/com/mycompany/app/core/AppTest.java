@@ -31,4 +31,10 @@ public class AppTest {
         int result = 2 - 2;	
 	assertTrue( result == 0 );
     }
+	
+    @Test
+    public void shouldDoSth() {
+   	assert(true);	
+    }	
+
 }
