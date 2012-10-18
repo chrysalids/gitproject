@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.core;
 
 import junit.framework.Test;
 
@@ -6,7 +6,12 @@ import junit.framework.Test;
  * Unit test for simple App.
  */
 public class AppTest {
-     
+	
+	@Before
+	public void setUp(){
+		//do before
+	}     
+
      /**
      * Create the test case
      *
